@@ -1,0 +1,28 @@
+2026-10-27 16:16:44,287 WARNING django.request Unauthorized: /api/auth/me/
+2026-10-27 16:16:44,291 WARNING django.server "GET /api/auth/me/ HTTP/1.1" 401 172
+2026-10-27 16:16:44,303 WARNING django.request Unauthorized: /api/auth/me/
+2026-10-27 16:16:44,309 WARNING django.server "GET /api/auth/me/ HTTP/1.1" 401 172
+2026-10-27 16:20:31,732 WARNING django.request Bad Request: /api/staff/
+2026-10-27 16:20:31,738 WARNING django.server "POST /api/staff/ HTTP/1.1" 400 62
+2026-10-27 16:20:44,704 WARNING django.request Bad Request: /api/staff/
+2026-10-27 16:20:44,712 WARNING django.server "POST /api/staff/ HTTP/1.1" 400 62
+2026-10-27 16:20:48,112 WARNING django.request Bad Request: /api/staff/
+2026-10-27 16:20:48,115 WARNING django.server "POST /api/staff/ HTTP/1.1" 400 62
+2026-10-27 16:20:52,720 WARNING django.request Bad Request: /api/staff/
+2026-10-27 16:20:52,721 WARNING django.server "POST /api/staff/ HTTP/1.1" 400 62
+2026-10-27 16:21:01,250 WARNING django.request Bad Request: /api/staff/
+2026-10-27 16:21:01,259 WARNING django.server "POST /api/staff/ HTTP/1.1" 400 62
+2026-10-27 16:25:48,731 WARNING django.request Bad Request: /api/staff/
+2026-10-27 16:25:48,738 WARNING django.server "POST /api/staff/ HTTP/1.1" 400 53
+2026-10-27 16:27:58,654 WARNING django.request Bad Request: /api/subjects/
+2026-10-27 16:27:58,656 WARNING django.server "POST /api/subjects/ HTTP/1.1" 400 125
+2026-10-27 16:31:57,172 WARNING django.request Not Found: /api/students/
+2026-10-27 16:31:57,173 WARNING django.server "GET /api/students/?is_active=true&created_by=5&page=2&page_size=20 HTTP/1.1" 404 26
+2026-10-27 16:34:45,680 WARNING django.request Bad Request: /api/assignments/
+2026-10-27 16:34:45,682 WARNING django.server "POST /api/assignments/ HTTP/1.1" 400 84
+2026-10-27 16:38:19,334 WARNING django.request Bad Request: /api/lectures/
+2026-10-27 16:38:19,339 WARNING django.server "POST /api/lectures/ HTTP/1.1" 400 102
+2026-10-27 16:38:30,956 WARNING django.request Bad Request: /api/lectures/
+2026-10-27 16:38:30,963 WARNING django.server "POST /api/lectures/ HTTP/1.1" 400 55
+2026-10-27 16:50:15,418 WARNING django.request Bad Request: /api/timetable/
+2026-10-27 16:50:15,421 WARNING django.server "POST /api/timetable/ HTTP/1.1" 400 55
