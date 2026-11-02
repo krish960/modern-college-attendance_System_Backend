@@ -28,7 +28,9 @@ def env_list(name, default=""):
 # --------------------------------------------------------------------------
 # Core / security
 # --------------------------------------------------------------------------
-DEBUG = env_bool("DJANGO_DEBUG", True)
+# DEBUG = env_bool("DJANGO_DEBUG", True)
+
+DEBUG = os.getenv("DEBUG", "False").strip().lower() == "true"
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "")
 if not SECRET_KEY:
@@ -38,7 +40,17 @@ if not SECRET_KEY:
     else:
         raise ImproperlyConfigured("Set DJANGO_SECRET_KEY when DJANGO_DEBUG is false.")
 
-ALLOWED_HOSTS = env_list("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1")
+# ALLOWED_HOSTS = env_list("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1")
+
+ALLOWED_HOSTS = [
+    host.strip()
+    for host in os.getenv(
+        "ALLOWED_HOSTS",
+        "localhost,127.0.0.1"
+    ).split(",")
+    if host.strip()
+]
+
 
 BEHIND_PROXY = env_bool("DJANGO_BEHIND_PROXY", False)
 if BEHIND_PROXY:
