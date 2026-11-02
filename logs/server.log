@@ -26,3 +26,41 @@
 2026-10-27 16:38:30,963 WARNING django.server "POST /api/lectures/ HTTP/1.1" 400 55
 2026-10-27 16:50:15,418 WARNING django.request Bad Request: /api/timetable/
 2026-10-27 16:50:15,421 WARNING django.server "POST /api/timetable/ HTTP/1.1" 400 55
+2026-11-02 09:12:04,486 WARNING django.request Not Found: /
+2026-11-02 09:12:04,498 WARNING django.server "GET / HTTP/1.1" 404 3778
+2026-11-02 09:12:05,267 WARNING django.request Not Found: /favicon.ico
+2026-11-02 09:12:05,325 WARNING django.server "GET /favicon.ico HTTP/1.1" 404 3829
+2026-11-02 09:12:08,884 WARNING django.request Not Found: /admin/
+2026-11-02 09:12:08,891 WARNING django.server "GET /admin/ HTTP/1.1" 404 3814
+2026-11-02 09:12:12,197 WARNING django.request Not Found: /admin/
+2026-11-02 09:12:12,207 WARNING django.server "GET /admin/ HTTP/1.1" 404 3814
+2026-11-02 09:12:22,398 WARNING django.request Not Found: /api
+2026-11-02 09:12:22,405 WARNING django.server "GET /api HTTP/1.1" 404 3805
+2026-11-02 09:12:25,075 WARNING django.request Not Found: /api/admin/
+2026-11-02 09:12:25,078 WARNING django.server "GET /api/admin/ HTTP/1.1" 404 29630
+2026-11-02 09:12:28,405 WARNING django.request Not Found: /api/admin/
+2026-11-02 09:12:28,410 WARNING django.server "GET /api/admin/ HTTP/1.1" 404 29630
+2026-11-02 09:12:36,295 WARNING django.request Not Found: /api/admin/login
+2026-11-02 09:12:36,297 WARNING django.server "GET /api/admin/login HTTP/1.1" 404 29645
+2026-11-02 09:12:39,439 WARNING django.request Not Found: /api/admin/login/
+2026-11-02 09:12:39,442 WARNING django.server "GET /api/admin/login/ HTTP/1.1" 404 29648
+2026-11-02 09:12:48,925 WARNING django.request Not Found: /
+2026-11-02 09:12:48,928 WARNING django.server "GET / HTTP/1.1" 404 3778
+2026-11-02 09:13:00,055 WARNING django.request Not Found: /api
+2026-11-02 09:13:00,060 WARNING django.server "GET /api HTTP/1.1" 404 3805
+2026-11-02 09:13:04,902 WARNING django.request Not Found: /api/admin/
+2026-11-02 09:13:04,908 WARNING django.server "GET /api/admin/ HTTP/1.1" 404 29630
+2026-11-02 09:13:07,760 WARNING django.request Not Found: /api/admin/
+2026-11-02 09:13:07,762 WARNING django.server "GET /api/admin/ HTTP/1.1" 404 29630
+2026-11-02 09:17:23,880 WARNING django.request Not Found: /api/admin/
+2026-11-02 09:17:23,882 WARNING django.server "GET /api/admin/ HTTP/1.1" 404 29630
+2026-11-02 11:34:54,454 WARNING django.request Unauthorized: /api/auth/me/
+2026-11-02 11:34:54,457 WARNING django.server "GET /api/auth/me/ HTTP/1.1" 401 172
+2026-11-02 11:34:54,466 WARNING django.request Unauthorized: /api/auth/me/
+2026-11-02 11:34:54,468 WARNING django.server "GET /api/auth/me/ HTTP/1.1" 401 172
+2026-11-02 12:04:46,282 WARNING django.request Bad Request: /api/staff/
+2026-11-02 12:04:46,304 WARNING django.server "POST /api/staff/ HTTP/1.1" 400 97
+2026-11-02 12:19:01,982 WARNING django.request Unauthorized: /api/auth/login/
+2026-11-02 12:19:01,982 WARNING django.server "POST /api/auth/login/ HTTP/1.1" 401 63
+2026-11-02 12:19:31,844 WARNING django.request Unauthorized: /api/auth/login/
+2026-11-02 12:19:31,847 WARNING django.server "POST /api/auth/login/ HTTP/1.1" 401 63
